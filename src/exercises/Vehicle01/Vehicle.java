@@ -1,16 +1,16 @@
 package exercises.Vehicle01;
 
 public class Vehicle {
-    public String make;
-    public String model;
-    public double speedInKmh;
+    private final String make;
+    private final String model;
+    private double speedInKmh;
 
-    public void setMake(String make){
+    public Vehicle(String make, String model) {
         this.make = make;
-    }
-    public void setModel(String model){
         this.model = model;
+        this.speedInKmh = 0.0;
     }
+
     public String getMake(){
         return make;
     }
