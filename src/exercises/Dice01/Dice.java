@@ -17,6 +17,6 @@ public class Dice {
     }
     public void rollTheDice(){
         Random random = new Random();
-        value = random.nextInt(1, 6);
+        value = random.nextInt(1, 7);
     }
 }
