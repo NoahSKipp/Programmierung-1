@@ -17,6 +17,11 @@ public class Candle {
 
     }
     public void turnOffACandle(){
+
         isBurning = false;
+    }
+
+    public String toString(){
+        return "Candle [color=" + colour + ", isBurning=" + isBurning + "]";
     }
 }

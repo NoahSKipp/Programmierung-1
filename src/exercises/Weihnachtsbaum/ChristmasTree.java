@@ -31,4 +31,17 @@ public class ChristmasTree {
         }
         return numberOfElectricCandles;
     }
+
+    public String getType() {
+        return type;
+    }
+    public double getSizeInM() {
+        return sizeInM;
+    }
+    public List<Candle> getCandles() {
+        return candles;
+    }
+    public String toString(){
+        return "Weihnachtsbaum [type=" + type + ", sizeInM=" + sizeInM + "]";
+    }
 }

@@ -16,6 +16,11 @@ public class ElectricCandle extends Candle {
         }
     }
     public void recharge(){
+
         powerInPercent = 100;
+    }
+    @Override
+    public String toString(){
+        return "Electric Candle [color=" + getColour() + ", isBurning=" + isBurning + "]";
     }
 }
